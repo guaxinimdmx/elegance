@@ -44,3 +44,18 @@ if (!function_exists('url_true')) {
     }
 
 }
+
+if (!function_exists('url_public')) {
+
+    /**
+     * Retorna um objeto da URL para a pasta public do projeto
+     * @return \elegance\Url
+     */
+    function url_public()
+    {
+        $url = new \elegance\Url();
+        $url->cif(false)->query(null)->path(0)->path(env('DIR_PUBLIC', ''), ...func_get_args());
+        return $url;
+    }
+
+}

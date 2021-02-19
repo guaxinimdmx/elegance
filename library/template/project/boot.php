@@ -2,6 +2,8 @@
 
 namespace elegance;
 
+loadEnv();
+
 Router::get('', function () {
     (new ResponseText())
         ->data('Tudo funcionando')
