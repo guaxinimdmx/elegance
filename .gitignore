@@ -1,6 +1,6 @@
 /composer.lock
+/boot.php
 /vendor
+/public
 /.env
 /mx
-/public
-/boot.php
