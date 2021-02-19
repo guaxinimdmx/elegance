@@ -118,7 +118,7 @@ class Url
         $path = func_get_args()[0] ?? '';
         if (is_string($path) && substr($path, 0, 1) == '>') {
             $parametros = func_get_args()[1] ?? [];
-            //$this->path(Router::urlPath(substr($path, 1), $parametros));
+            $this->path(Router::urlPath(substr($path, 1), $parametros));
         } else {
             foreach (func_get_args() as $path) {
                 if (is_string($path)) {
