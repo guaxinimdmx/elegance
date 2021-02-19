@@ -24,6 +24,10 @@ O Helper URL_CLEAN retorna um objeto da URL atual livre de QUERY ou PATH, mas ma
 
     url_free([...$path]);
 
+O Helper URL_PUBLIC retorna um objeto da URL para a pasta public do projeto (definida pela variavel DIR_PUBLIC em .env)
+
+    url_public([...$path]);
+
 ## Manipulando URL
 Uma vez que o objeto tenha sido criado, pode-se manipular a URL com os seguintes metodos
 
