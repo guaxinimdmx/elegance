@@ -1,0 +1,24 @@
+{
+    "name": "elegance/elegance",
+    "description": "Framework para criação de projetos em PHP focado em produtividade",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "./helper/function/url.php"
+        ]
+    },
+    "require": {
+        "elegance/phpextend": "^1.0",
+        "elegance/mxcmd": "^1.0",
+        "elegance/engine": "^1.0"
+    }
+}
