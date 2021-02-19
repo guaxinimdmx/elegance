@@ -13,6 +13,7 @@
             "": "class/"
         },
         "files": [
+            "./helper/constant/sts.php",
             "./helper/function/url.php"
         ]
     },
