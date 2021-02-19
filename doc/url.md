@@ -12,9 +12,17 @@ Caso nenhuma URL seja informada, a URL atual será utilizada
     $currentUrl = new Url();
 
 ## Helper
-O Helper URL retorna automaticamente a URL atual livre de Query ou PAths
+O Helper URL retorna um objeto da URL atual livre de QUERY ou PATH
 
     url([...$path]);
+
+O Helper URL_TRUE retorna um objeto da URL atual da forma que foi interpretada, com QUERY, PATH e cifra
+
+    url_true([...$path]);
+
+O Helper URL_CLEAN retorna um objeto da URL atual livre de QUERY ou PATH, mas mantema cifra, caso exista
+
+    url_free([...$path]);
 
 ## Manipulando URL
 Uma vez que o objeto tenha sido criado, pode-se manipular a URL com os seguintes metodos
