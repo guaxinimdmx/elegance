@@ -14,7 +14,8 @@
         },
         "files": [
             "./helper/constant/sts.php",
-            "./helper/function/url.php"
+            "./helper/function/url.php",
+            "./helper/script/env.php"
         ]
     },
     "require": {
